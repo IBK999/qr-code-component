@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: #D5E1EF;
+    padding: 50px;
+}
+
+.container {
+    background-color: #FFFEFE;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+.container h3 {
+    font-weight: 700;
+}
+
+.container p {
+    color: #878E98;
+    font-size: 15px;
+}
+
+.container-img {
+    width: 100%;
+}
+
+
+/* MOBILE VIEW CSS */
+@media only screen and (max-width: 480px) {
+    .container {
+        background-color: #FFFEFE;
+        padding: 20px;
+        margin: auto;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+}
